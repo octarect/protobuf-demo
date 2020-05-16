@@ -14,7 +14,7 @@ import (
 )
 
 func main() {
-	port := 5051
+	port := 50051
 	lis, err := net.Listen("tcp", fmt.Sprintf(":%d", port))
 
 	if err != nil {

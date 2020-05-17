@@ -1,2 +1,4 @@
 /api/gen/*
+/client/node_modules/
+/client/gen/*
 !.gitkeep
